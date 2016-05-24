@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *getCodeBtn;
 @property (nonatomic, strong) NSTimer *timer;
 
+
 @end
 
 @implementation UpdatePasswordTableViewController
@@ -25,6 +26,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"密码修改";
     self.tableView.showsVerticalScrollIndicator = NO;
     self.tableView.backgroundView = nil;
     self.tableView.backgroundColor = BackgroundColor;
@@ -99,7 +101,7 @@
         return;
     }
      NSString *tel = [AES128Base64Util AES128Encrypt:[ZYCacheManager shareInstance].user.telephone withKey:[ZYCacheManager shareInstance].user.secretKey withIV:AUTH_IV];
-    [[HTTPClientManager manager] POST:@"UserCenter/change_password" dictionary:@{@"uid":@([ZYCacheManager shareInstance].user.uid),@"mobile":tel,@"checksms":_code.text,@"passwd":_passWord.text,@"confirm_passwd":_againPassword.text} success:^(id responseObject) {
+    [[HTTPClientManager manager] POST:@"UserCenter/change_password" dictionary:@{@"uid":@([ZYCacheManager shareInstance].user.uid),@"mobile":tel,@"checksms":_code.text,@"passwd":_passWord.text,@"confirm_passwd":_againPassword.text,@"is_check_passwd":@"0"} success:^(id responseObject) {
         mAlertView(@"", @"密码修改成功");
         [self.navigationController popViewControllerAnimated:YES];
     } failure:^(NSError *error) {

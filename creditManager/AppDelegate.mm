@@ -45,7 +45,7 @@
     // 定位
     self.mapManager = [[BMKMapManager alloc] init];
     // 如果要关注网络及授权验证事件，请设定
-    BOOL ret = [self.mapManager start:@"syPHKdZ38Gsis1RrnFEPGdk2"  generalDelegate:self];
+    BOOL ret = [self.mapManager start:BaiDuMap_Key  generalDelegate:self];
     if (!ret) {
         NSLog(@"manager start failed!");
     }

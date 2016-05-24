@@ -10,6 +10,7 @@
 #pragma mark - App 相关
 
 #define YouMeng_Key @"56fcb64667e58e7e670006b7"
+#define BaiDuMap_Key @"syPHKdZ38Gsis1RrnFEPGdk2"
 
 //默认的设备did和key
 

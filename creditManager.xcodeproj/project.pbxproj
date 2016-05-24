@@ -22,6 +22,7 @@
 		AE685D761C83DF7000454566 /* IMeiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE685D751C83DF7000454566 /* IMeiManager.m */; };
 		AE685D7B1C83DF8600454566 /* ZYNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE685D781C83DF8600454566 /* ZYNotificationManager.m */; };
 		AE685D7C1C83DF8600454566 /* ZYCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE685D7A1C83DF8600454566 /* ZYCacheManager.m */; };
+		AE75FF401CF3FE8900AA57F7 /* ChangePassTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE75FF3F1CF3FE8900AA57F7 /* ChangePassTableViewController.m */; };
 		AE7A013C1C9697970058045F /* ApplyCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7A013B1C9697970058045F /* ApplyCardViewController.m */; };
 		AE7A01591C97A6D70058045F /* CreditCardFormSubmit.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7A01581C97A6D70058045F /* CreditCardFormSubmit.m */; };
 		AE7A015C1C97ABF00058045F /* ZYPalceHoldTextFeild.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7A015B1C97ABF00058045F /* ZYPalceHoldTextFeild.m */; };
@@ -181,6 +182,8 @@
 		AE685D781C83DF8600454566 /* ZYNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNotificationManager.m; sourceTree = "<group>"; };
 		AE685D791C83DF8600454566 /* ZYCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCacheManager.h; sourceTree = "<group>"; };
 		AE685D7A1C83DF8600454566 /* ZYCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCacheManager.m; sourceTree = "<group>"; };
+		AE75FF3E1CF3FE8900AA57F7 /* ChangePassTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePassTableViewController.h; sourceTree = "<group>"; };
+		AE75FF3F1CF3FE8900AA57F7 /* ChangePassTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePassTableViewController.m; sourceTree = "<group>"; };
 		AE7A013A1C9697970058045F /* ApplyCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyCardViewController.h; sourceTree = "<group>"; };
 		AE7A013B1C9697970058045F /* ApplyCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyCardViewController.m; sourceTree = "<group>"; };
 		AE7A01571C97A6D70058045F /* CreditCardFormSubmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardFormSubmit.h; sourceTree = "<group>"; };
@@ -723,6 +726,8 @@
 				AEEB53991CA3BD5000F41BD9 /* SecretSetTableViewController.m */,
 				AEEB539C1CA3CA4400F41BD9 /* UpdatePasswordTableViewController.h */,
 				AEEB539D1CA3CA4400F41BD9 /* UpdatePasswordTableViewController.m */,
+				AE75FF3E1CF3FE8900AA57F7 /* ChangePassTableViewController.h */,
+				AE75FF3F1CF3FE8900AA57F7 /* ChangePassTableViewController.m */,
 				AEEB539F1CA3CA5500F41BD9 /* updateTelTableViewController.h */,
 				AEEB53A01CA3CA5500F41BD9 /* updateTelTableViewController.m */,
 			);
@@ -1285,6 +1290,7 @@
 				AE9C393B1C9FD578006182B1 /* JCCDatePickerView.m in Sources */,
 				AEF636BC1C755CB700786889 /* SDiPhoneVersion.m in Sources */,
 				AEF636BE1C755CB700786889 /* ZYLocationManager.m in Sources */,
+				AE75FF401CF3FE8900AA57F7 /* ChangePassTableViewController.m in Sources */,
 				AEE56CBB1C8EBEC400DF9DEC /* ZYLightingButton.m in Sources */,
 				AEE8BF211CB3973500064618 /* GuidePageViewController.m in Sources */,
 				AEEBC3F81C843D32003D9164 /* JCCBaseWebViewController.m in Sources */,

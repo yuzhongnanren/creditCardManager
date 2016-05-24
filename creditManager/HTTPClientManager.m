@@ -310,7 +310,6 @@
     //auth_did=10002，key='Eb953db38ae22be0',appid=1,os_type=2)
     NSDictionary *dic = @{@"auth_did":[ZYCacheManager shareInstance].user.did,@"auth_tms":timeSp,@"auth_dsig":auth_dsig,@"v":ServerVersion,@"app_v":mAPPVersion,@"auth_uid":@([ZYCacheManager shareInstance].user.uid),@"auth_debug":@"0"};
     return dic;
-    
 }
 
 

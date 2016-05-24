@@ -16,6 +16,7 @@
 #define kLngKey @"kLngKey"
 #define kIsLogin @"kIsLogin"
 #define kIdCard @"kIdCard"
+#define kIsSetPasswd @"kIsSetPasswd"
 
 #define kDidKey @"kDidKey"
 #define kSecretKey @"kSecretKey"
@@ -57,7 +58,7 @@
         self.birthday = @"";
         self.qq = @"";
         self.weixing = @"";
-        
+        self.is_set_passwd = @"";
     }
     return self;
 }
@@ -84,6 +85,7 @@
     [aCoder encodeObject:_address_Zone_Id forKey:kAddress_Zone_IdKey];
     [aCoder encodeObject:_qq forKey:kQQKey];
     [aCoder encodeObject:_weixing forKey:kWeiXingKey];
+    [aCoder encodeObject:_is_set_passwd forKey:kIsSetPasswd];
 }
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
@@ -108,6 +110,7 @@
         _address_Zone_Id = [aDecoder decodeObjectForKey:kAddress_Zone_IdKey];
         _qq = [aDecoder decodeObjectForKey:kQQKey];
         _weixing = [aDecoder decodeObjectForKey:kWeiXingKey];
+        _is_set_passwd = [aDecoder decodeObjectForKey:kIsSetPasswd];
     }
     return self;
 }
@@ -135,6 +138,7 @@
     user.address_Zone_Id = self.address_Zone_Id;
     user.qq = self.qq;
     user.weixing = self.weixing;
+    user.is_set_passwd = self.is_set_passwd;
     return user;
 }
 
