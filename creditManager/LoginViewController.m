@@ -116,6 +116,7 @@
             [ZYCacheManager shareInstance].user.telephone = _tel.text;
             [ZYCacheManager shareInstance].user.nickname = [responseObject objectForKey:@"nickname"];
             [ZYCacheManager shareInstance].user.sex = [[responseObject objectForKey:@"sex"] integerValue];
+            [ZYCacheManager shareInstance].user.is_set_passwd = @"0";
             [[ZYCacheManager shareInstance] save];
             [[ZYControllerManager manager] dismiss:self.navigationController];
         } failure:^(NSError *error) {
@@ -140,6 +141,7 @@
             [ZYCacheManager shareInstance].user.telephone = _tel.text;
             [ZYCacheManager shareInstance].user.nickname = [responseObject objectForKey:@"nickname"];
             [ZYCacheManager shareInstance].user.sex = [[responseObject objectForKey:@"sex"] integerValue];
+            [ZYCacheManager shareInstance].user.is_set_passwd = [responseObject objectForKey:@"is_set_passwd"];
             [[ZYCacheManager shareInstance] save];
             [[ZYControllerManager manager] dismiss:self.navigationController];
         } failure:^(NSError *error) {

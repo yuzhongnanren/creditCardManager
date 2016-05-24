@@ -36,5 +36,6 @@
 @property (nonatomic, copy) NSString *lng;
 @property (nonatomic, copy) NSString *id_card;//暂时无用
 @property (nonatomic, assign) BOOL isLogin;//是否已经登录
+@property (nonatomic, copy) NSString *is_set_passwd;//是否需要设置密码
 
 @end

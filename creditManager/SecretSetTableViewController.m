@@ -8,6 +8,8 @@
 
 #import "SecretSetTableViewController.h"
 #import "ZYControllerManager.h"
+#import "UpdatePasswordTableViewController.h"
+#import "ChangePassTableViewController.h"
 
 @interface SecretSetTableViewController ()<UIAlertViewDelegate>
 
@@ -38,6 +40,13 @@
    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.row == 0) {
         [MobClick event:@"mimaxiugai"];
+        if ([[ZYCacheManager shareInstance].user.is_set_passwd integerValue] == 1) {
+            UpdatePasswordTableViewController *pass = StoryBoardDefined(@"UpdatePasswordTableViewController");
+            [self.navigationController pushViewController:pass animated:YES];
+        }else {
+            ChangePassTableViewController *pass = StoryBoardDefined(@"ChangePassTableViewController");
+            [self.navigationController pushViewController:pass animated:YES];
+        }
     }else if(indexPath.row == 1) {
         [MobClick event:@"genhuanshouji"];
     }
