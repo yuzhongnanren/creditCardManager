@@ -12,6 +12,7 @@
 #import "MJExtension.h"
 #import "BangCreditTableViewController.h"
 #import "ZYNotificationManager.h"
+#import "ModificationTableViewController.h"
 
 @interface MyCreditCardViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
@@ -121,7 +122,8 @@
     if (indexPath.row == 0) {
         [self addCreditCard];
     }else {
-        [self editCredit:indexPath.row];
+//        [self editCredit:indexPath.row];
+        [self modifaiction];
     }
 }
 
@@ -146,7 +148,11 @@
     bang.type = Bang_Credit;
     [self.navigationController pushViewController:bang animated:YES];
 }
-
+//跳转详细界面
+- (void)modifaiction{
+    ModificationTableViewController *modification = StoryBoardDefined(@"ModificationTableViewController");
+    [self.navigationController pushViewController:modification animated:YES];
+}
 - (void)editCredit:(NSInteger)index {
     [MobClick event:@"editCredit"];
     BangCreditTableViewController *bang = StoryBoardDefined(@"BangCreditTableViewController");

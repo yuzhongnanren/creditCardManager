@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3AEEC71CF422EE00EDE136 /* ModificationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AEEC41CF422EE00EDE136 /* ModificationTableViewController.m */; };
+		1B3AEEC81CF422EE00EDE136 /* ImpersonalityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AEEC61CF422EE00EDE136 /* ImpersonalityTableViewController.m */; };
+		1B3AEECF1CF4231500EDE136 /* ModificationFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AEECA1CF4231500EDE136 /* ModificationFirstTableViewCell.m */; };
+		1B3AEED01CF4231500EDE136 /* ModificationSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AEECC1CF4231500EDE136 /* ModificationSecondTableViewCell.m */; };
+		1B3AEED11CF4231500EDE136 /* ImpersonalityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AEECE1CF4231500EDE136 /* ImpersonalityTableViewCell.m */; };
 		8955F0E7332FB17B45D7BC27 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDA1454C8901F6E1280D4C4 /* libPods.a */; };
 		AE685D5C1C76B0CC00454566 /* ImagePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE685D5B1C76B0CC00454566 /* ImagePlayerView.m */; };
 		AE685D621C804EFF00454566 /* ZYTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE685D611C804EFF00454566 /* ZYTabViewController.m */; };
@@ -144,6 +149,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B3AEEC31CF422EE00EDE136 /* ModificationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModificationTableViewController.h; sourceTree = "<group>"; };
+		1B3AEEC41CF422EE00EDE136 /* ModificationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModificationTableViewController.m; sourceTree = "<group>"; };
+		1B3AEEC51CF422EE00EDE136 /* ImpersonalityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpersonalityTableViewController.h; sourceTree = "<group>"; };
+		1B3AEEC61CF422EE00EDE136 /* ImpersonalityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpersonalityTableViewController.m; sourceTree = "<group>"; };
+		1B3AEEC91CF4231500EDE136 /* ModificationFirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModificationFirstTableViewCell.h; sourceTree = "<group>"; };
+		1B3AEECA1CF4231500EDE136 /* ModificationFirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModificationFirstTableViewCell.m; sourceTree = "<group>"; };
+		1B3AEECB1CF4231500EDE136 /* ModificationSecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModificationSecondTableViewCell.h; sourceTree = "<group>"; };
+		1B3AEECC1CF4231500EDE136 /* ModificationSecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModificationSecondTableViewCell.m; sourceTree = "<group>"; };
+		1B3AEECD1CF4231500EDE136 /* ImpersonalityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpersonalityTableViewCell.h; sourceTree = "<group>"; };
+		1B3AEECE1CF4231500EDE136 /* ImpersonalityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpersonalityTableViewCell.m; sourceTree = "<group>"; };
 		41ECA8900FC4377590881E60 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5CDA1454C8901F6E1280D4C4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6B45B2761D2A972F98037E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -531,6 +546,12 @@
 			children = (
 				AE7A01771C990E3B0058045F /* MyCreditCardTableViewCell.h */,
 				AE7A01781C990E3B0058045F /* MyCreditCardTableViewCell.m */,
+				1B3AEEC91CF4231500EDE136 /* ModificationFirstTableViewCell.h */,
+				1B3AEECA1CF4231500EDE136 /* ModificationFirstTableViewCell.m */,
+				1B3AEECB1CF4231500EDE136 /* ModificationSecondTableViewCell.h */,
+				1B3AEECC1CF4231500EDE136 /* ModificationSecondTableViewCell.m */,
+				1B3AEECD1CF4231500EDE136 /* ImpersonalityTableViewCell.h */,
+				1B3AEECE1CF4231500EDE136 /* ImpersonalityTableViewCell.m */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -567,6 +588,10 @@
 				AE9C39421CA0E7E3006182B1 /* BangCreditTableViewController.m */,
 				AE9C39221C9BE13F006182B1 /* MyStoreCardViewController.h */,
 				AE9C39231C9BE13F006182B1 /* MyStoreCardViewController.m */,
+				1B3AEEC31CF422EE00EDE136 /* ModificationTableViewController.h */,
+				1B3AEEC41CF422EE00EDE136 /* ModificationTableViewController.m */,
+				1B3AEEC51CF422EE00EDE136 /* ImpersonalityTableViewController.h */,
+				1B3AEEC61CF422EE00EDE136 /* ImpersonalityTableViewController.m */,
 				AEEB539B1CA3CA0B00F41BD9 /* Setting */,
 				AE9C393E1C9FF4A4006182B1 /* FeedBackViewController.h */,
 				AE9C393F1C9FF4A4006182B1 /* FeedBackViewController.m */,
@@ -1175,6 +1200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF636CC1C755CD100786889 /* NSDate+Additions.m in Sources */,
+				1B3AEED01CF4231500EDE136 /* ModificationSecondTableViewCell.m in Sources */,
 				AE9C39271C9BFAC7006182B1 /* UserMessageViewController.m in Sources */,
 				AE7A01701C980EFB0058045F /* TPKeyboardAvoidingScrollView.m in Sources */,
 				AE9C39361C9FD4AC006182B1 /* UUDatePicker.m in Sources */,
@@ -1222,6 +1248,7 @@
 				AEEBC42B1C86E55D003D9164 /* CreditProgressFlowLayout.m in Sources */,
 				AEF636A31C755C6D00786889 /* ZYTextField.m in Sources */,
 				AE7A01711C980EFB0058045F /* TPKeyboardAvoidingTableView.m in Sources */,
+				1B3AEEC81CF422EE00EDE136 /* ImpersonalityTableViewController.m in Sources */,
 				AE685D5C1C76B0CC00454566 /* ImagePlayerView.m in Sources */,
 				AEE56C871C88310B00DF9DEC /* CreditListViewController.m in Sources */,
 				AE7A017D1C9910160058045F /* ZJSwitch.m in Sources */,
@@ -1231,6 +1258,7 @@
 				AEEBC4051C858822003D9164 /* UserTableViewController.m in Sources */,
 				AEEBC3FB1C843D7A003D9164 /* JCCBaseViewController.m in Sources */,
 				AEF636681C74638700786889 /* AppDelegate.mm in Sources */,
+				1B3AEEC71CF422EE00EDE136 /* ModificationTableViewController.m in Sources */,
 				AEE56CA31C8D73B700DF9DEC /* CreditDetailViewController.m in Sources */,
 				AE685D761C83DF7000454566 /* IMeiManager.m in Sources */,
 				AE9C39431CA0E7E3006182B1 /* BangCreditTableViewController.m in Sources */,
@@ -1239,6 +1267,7 @@
 				AE7A01621C97E4140058045F /* SubmitCreditMessage.m in Sources */,
 				AEEBC3E51C83F74C003D9164 /* HomeTableViewCell.m in Sources */,
 				AE7A018A1C9A93A70058045F /* LoginViewController.m in Sources */,
+				1B3AEED11CF4231500EDE136 /* ImpersonalityTableViewCell.m in Sources */,
 				AEF636651C74638700786889 /* main.m in Sources */,
 				AEF636D21C755CF600786889 /* Reachability.m in Sources */,
 				AEF636BD1C755CB700786889 /* WEHelper.m in Sources */,
@@ -1260,6 +1289,7 @@
 				AEE8BF211CB3973500064618 /* GuidePageViewController.m in Sources */,
 				AEEBC3F81C843D32003D9164 /* JCCBaseWebViewController.m in Sources */,
 				AEE56CD11C926CC100DF9DEC /* CardDiscount.m in Sources */,
+				1B3AEECF1CF4231500EDE136 /* ModificationFirstTableViewCell.m in Sources */,
 				AEEB53AA1CA517DB00F41BD9 /* LineView.m in Sources */,
 				AEE56CB41C8D7AA000DF9DEC /* CityViewController.m in Sources */,
 				AE7A01721C980EFB0058045F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
