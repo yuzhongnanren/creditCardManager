@@ -8,6 +8,12 @@
 
 #import "ModificationFirstTableViewCell.h"
 
+@interface ModificationFirstTableViewCell ()
+
+
+
+@end
+
 @implementation ModificationFirstTableViewCell
 
 - (void)awakeFromNib {

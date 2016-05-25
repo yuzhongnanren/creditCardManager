@@ -60,8 +60,6 @@
         _payDay.text = [NSString stringWithFormat:@"每月%@日",self.creditCard.repayment_date];
         _billDay_Int = [self.creditCard.statement_date integerValue];
         _payDay_Int = [self.creditCard.repayment_date integerValue];
-        UIBarButtonItem *right = [[UIBarButtonItem alloc] initWithTitle:@"删除" style:UIBarButtonItemStylePlain target:self action:@selector(deleteCard)];
-        self.navigationItem.rightBarButtonItem = right;
 
     }
     for (int i = 1; i <= 28; i++) {
@@ -187,34 +185,41 @@
         mAlertView(@"", @"总额度必须是纯数字");
         return;
     }
+   
     [[HTTPClientManager manager] POST:@"UserCenter/bind_card?" dictionary:@{@"uid":@([ZYCacheManager shareInstance].user.uid),@"id":@(_credit_id),@"bank_id":[[self.banks objectAtIndex:[self.bankNames indexOfObject:_bank.text]] objectForKey:@"bank_id"],@"bank_num":_cardNumber.text,@"card_limit":_totalCost.text,@"statement_date":@(_billDay_Int),@"repayment_date":@(_payDay_Int)} success:^(id responseObject) {
-        [self.navigationController popViewControllerAnimated:YES];
-    } failure:^(NSError *error) {
-        
-    } view:self.view progress:YES];
-}
-
-- (void)deleteCard {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"您确定删除吗？" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
-    [alert show];
-    @weakify(self);
-    [alert.rac_buttonClickedSignal  subscribeNext:^(NSNumber *x) {
-        @strongify(self);
-        if ([x integerValue] == 1) {
-            [self deleteCreditCard];
+        if (_type == Edit_Credit) {
+            self.creditCard.card_limit = _totalCost.text;
+            self.creditCard.statement_date = [NSString stringWithFormat:@"%ld",_billDay_Int];
+            self.creditCard.repayment_date=[NSString stringWithFormat:@"%ld",_payDay_Int];
+            self.mycredit(self.creditCard);
         }
-    }];
-}
-
-- (void)deleteCreditCard {
-    [[HTTPClientManager manager] POST:@"UserCenter/del_bind_card?" dictionary:@{@"uid":@([ZYCacheManager shareInstance].user.uid),@"id":@(_credit_id)} success:^(id responseObject) {
         [self.navigationController popViewControllerAnimated:YES];
-        mAlertView(@"", @"信用卡删除成功");
     } failure:^(NSError *error) {
         
     } view:self.view progress:YES];
 }
 
+//- (void)deleteCard {
+//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:@"您确定删除吗？" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
+//    [alert show];
+//    @weakify(self);
+//    [alert.rac_buttonClickedSignal  subscribeNext:^(NSNumber *x) {
+//        @strongify(self);
+//        if ([x integerValue] == 1) {
+//            [self deleteCreditCard];
+//        }
+//    }];
+//}
+//
+//- (void)deleteCreditCard {
+//    [[HTTPClientManager manager] POST:@"UserCenter/del_bind_card?" dictionary:@{@"uid":@([ZYCacheManager shareInstance].user.uid),@"id":@(_credit_id)} success:^(id responseObject) {
+//        [self.navigationController popViewControllerAnimated:YES];
+//        mAlertView(@"", @"信用卡删除成功");
+//    } failure:^(NSError *error) {
+//        
+//    } view:self.view progress:YES];
+//}
+//
 /*
 #pragma mark - Navigation
 

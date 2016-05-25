@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "MyCredit.h"
-
+typedef void(^BlockWithMyCredit)(MyCredit *creditCard);
 typedef NS_ENUM(NSInteger, Type) {
     Bang_Credit = 0,
     Edit_Credit,
@@ -17,5 +17,6 @@ typedef NS_ENUM(NSInteger, Type) {
 @interface BangCreditTableViewController : UITableViewController
 @property (nonatomic, assign) Type type;
 @property (nonatomic, strong) MyCredit *creditCard;
+@property (nonatomic, copy) BlockWithMyCredit mycredit;
 
 @end
