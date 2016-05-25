@@ -49,7 +49,6 @@
     if (!ret) {
         NSLog(@"manager start failed!");
     }
-    
     [[ZYLocationManager manager] fetchLocationSuccess:^(BMKReverseGeoCodeResult *result) {
         [ZYCacheManager shareInstance].user.lat = [NSString stringWithFormat:@"%f",result.location.latitude];
         [ZYCacheManager shareInstance].user.lng = [NSString stringWithFormat:@"%f",result.location.longitude];
@@ -146,7 +145,7 @@
 
 - (void)registerIMEI {
     //A5089E63-E683-4275-991F-F9AA1D540B3A
-//    38.0874790000,114.5050290000
+    //38.0874790000,114.5050290000
     NSString *imei = [[IMeiManager shareInstance] feathIMEI];
     NSLog(@"%@--%@",[ZYCacheManager shareInstance].user.did,[ZYCacheManager shareInstance].user.secretKey);
     if ([[ZYCacheManager shareInstance].user.did isEqualToString:Auth_Did] && [[ZYCacheManager shareInstance].user.secretKey isEqualToString:Auth_Key]) {

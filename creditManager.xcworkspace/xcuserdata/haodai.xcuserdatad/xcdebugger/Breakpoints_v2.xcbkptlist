@@ -90,7 +90,7 @@
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/RegisterViewController.m"
-                  timestampString = "485766033.100087"
+                  timestampString = "485849708.830286"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "133"
@@ -105,7 +105,7 @@
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/RegisterViewController.m"
-                  timestampString = "485766033.100323"
+                  timestampString = "485849708.830478"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "133"
@@ -874,7 +874,7 @@
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/UserMessageViewController.m"
-                  timestampString = "485766033.132439"
+                  timestampString = "485849708.866566"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "179"
@@ -889,7 +889,7 @@
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/UserMessageViewController.m"
-                  timestampString = "485766033.132615"
+                  timestampString = "485849708.866764"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "179"
@@ -954,7 +954,7 @@
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/BangCreditTableViewController.m"
-                  timestampString = "485766033.135498"
+                  timestampString = "485849708.869681"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "99"
@@ -969,7 +969,7 @@
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/BangCreditTableViewController.m"
-                  timestampString = "485766033.135679"
+                  timestampString = "485849708.869876"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "99"
@@ -992,22 +992,6 @@
             startingLineNumber = "388"
             endingLineNumber = "388"
             landmarkName = "-submit:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "creditManager/AppDelegate.mm"
-            timestampString = "483343882.937652"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "-application:didFailToRegisterForRemoteNotificationsWithError:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1040,54 +1024,6 @@
             startingLineNumber = "65"
             endingLineNumber = "65"
             landmarkName = "-didReceiveRemoteNotification:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "creditManager/AppDelegate.mm"
-            timestampString = "483343882.937652"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "-application:didReceiveRemoteNotification:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "creditManager/AppDelegate.mm"
-            timestampString = "483343882.937652"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "-application:didRegisterForRemoteNotificationsWithDeviceToken:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "creditManager/AppDelegate.mm"
-            timestampString = "483343882.937652"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "-application:didReceiveRemoteNotification:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1145,61 +1081,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "creditManager/HTTPClientManager.m"
-            timestampString = "485753450.35907"
+            filePath = "creditManager/SecretSetTableViewController.m"
+            timestampString = "485837344.557461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "-POST:dictionary:success:failure:view:progress:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "creditManager/AppDelegate.mm"
-            timestampString = "485754250.625628"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "creditManager/AppDelegate.mm"
-            timestampString = "485754403.194411"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "creditManager/AppDelegate.mm"
-            timestampString = "485754404.660576"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-exitLogin:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
