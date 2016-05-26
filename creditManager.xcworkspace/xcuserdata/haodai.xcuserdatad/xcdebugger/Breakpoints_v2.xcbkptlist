@@ -90,7 +90,7 @@
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/RegisterViewController.m"
-                  timestampString = "485919466.329454"
+                  timestampString = "485939074.701321"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "133"
@@ -105,7 +105,7 @@
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/RegisterViewController.m"
-                  timestampString = "485919466.329624"
+                  timestampString = "485939074.701543"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "133"
@@ -842,7 +842,7 @@
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/UserMessageViewController.m"
-                  timestampString = "485919466.349734"
+                  timestampString = "485939074.73331"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "179"
@@ -857,7 +857,7 @@
                   moduleName = "creditManager"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/haodai/Desktop/MyPreject/creditManager/creditManager/UserMessageViewController.m"
-                  timestampString = "485919466.349891"
+                  timestampString = "485939074.733497"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "179"
@@ -1001,22 +1001,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "creditManager/SecretSetTableViewController.m"
-            timestampString = "485837344.557461"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "-exitLogin:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "creditManager/BankMessageTableViewController.m"
             timestampString = "485860360.330514"
             startingColumnNumber = "9223372036854775807"
@@ -1072,6 +1056,70 @@
             startingLineNumber = "64"
             endingLineNumber = "64"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "creditManager/RegisterViewController.m"
+            timestampString = "485937349.686774"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "creditManager/RegisterViewController.m"
+            timestampString = "485937365.498304"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "creditManager/RegisterViewController.m"
+            timestampString = "485937366.40803"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "creditManager/RegisterViewController.m"
+            timestampString = "485937368.334211"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

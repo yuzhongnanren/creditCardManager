@@ -14,13 +14,13 @@
 //测试接口地址 : http://sandbox.api.haodai.com
 //测试1dd7f6eb4cf408114b1b8d1f662eda22
 
-#define HTTP_HeadValue_Oauth2  @"oauth2 1dd7f6eb4cf408114b1b8d1f662eda22"
+#define HTTP_HeadValue_Oauth2  @"oauth2 a24ed9b29a8d6b1a38c82990dfec220e"
 
 #define HTTP_Source @"open.haodai"
 #define HTTP_Ref @"hd_110120"
 #define HTTP_Auth @"app"
 
-#define BaseUrl   @"http://sandbox.api.haodai.com"
+#define BaseUrl   @"http://api.haodai.com"
 
 #define HTML5_URL @"http://8.yun.haodai.com/"
 

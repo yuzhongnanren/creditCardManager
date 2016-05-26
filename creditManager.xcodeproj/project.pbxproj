@@ -53,6 +53,7 @@
 		AE9C393B1C9FD578006182B1 /* JCCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9C393A1C9FD578006182B1 /* JCCDatePickerView.m */; };
 		AE9C39401C9FF4A4006182B1 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9C393F1C9FF4A4006182B1 /* FeedBackViewController.m */; };
 		AE9C39431CA0E7E3006182B1 /* BangCreditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9C39421CA0E7E3006182B1 /* BangCreditTableViewController.m */; };
+		AEDDADC51CF6D59C009B5C37 /* TouchViewTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDDADC41CF6D59C009B5C37 /* TouchViewTableView.m */; };
 		AEE56C871C88310B00DF9DEC /* CreditListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE56C861C88310B00DF9DEC /* CreditListViewController.m */; };
 		AEE56C8A1C8853ED00DF9DEC /* CreditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE56C891C8853ED00DF9DEC /* CreditTableViewCell.m */; };
 		AEE56C901C89417A00DF9DEC /* ZYSearchPOPView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE56C8F1C89417A00DF9DEC /* ZYSearchPOPView.m */; };
@@ -243,6 +244,8 @@
 		AE9C393F1C9FF4A4006182B1 /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
 		AE9C39411CA0E7E2006182B1 /* BangCreditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BangCreditTableViewController.h; sourceTree = "<group>"; };
 		AE9C39421CA0E7E3006182B1 /* BangCreditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BangCreditTableViewController.m; sourceTree = "<group>"; };
+		AEDDADC31CF6D59B009B5C37 /* TouchViewTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewTableView.h; sourceTree = "<group>"; };
+		AEDDADC41CF6D59C009B5C37 /* TouchViewTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewTableView.m; sourceTree = "<group>"; };
 		AEE56C851C88310B00DF9DEC /* CreditListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditListViewController.h; sourceTree = "<group>"; };
 		AEE56C861C88310B00DF9DEC /* CreditListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditListViewController.m; sourceTree = "<group>"; };
 		AEE56C881C8853ED00DF9DEC /* CreditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditTableViewCell.h; sourceTree = "<group>"; };
@@ -966,6 +969,8 @@
 			children = (
 				AEF636C51C755CD100786889 /* UITextView+Placeholder.h */,
 				AEF636C61C755CD100786889 /* UITextView+Placeholder.m */,
+				AEDDADC31CF6D59B009B5C37 /* TouchViewTableView.h */,
+				AEDDADC41CF6D59C009B5C37 /* TouchViewTableView.m */,
 				AE8915151CA63920005FDDF3 /* UIViewController+DataNull.h */,
 				AE8915161CA63920005FDDF3 /* UIViewController+DataNull.m */,
 				AE8038651CCDBFEA00F9DEAA /* UIViewController+MobClick.h */,
@@ -1300,6 +1305,7 @@
 				AEE56CB41C8D7AA000DF9DEC /* CityViewController.m in Sources */,
 				AE7A01721C980EFB0058045F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				AEEBC3F11C84198F003D9164 /* ZYScrollView.m in Sources */,
+				AEDDADC51CF6D59C009B5C37 /* TouchViewTableView.m in Sources */,
 				AE7A01811C9938FE0058045F /* MyCredit.m in Sources */,
 				AEF636C01C755CB700786889 /* JCCUtils.m in Sources */,
 				AEE8BF051CB387C700064618 /* GuideView.m in Sources */,

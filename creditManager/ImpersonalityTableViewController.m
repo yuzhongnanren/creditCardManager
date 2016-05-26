@@ -8,6 +8,8 @@
 
 #import "ImpersonalityTableViewController.h"
 #import "ImpersonalityTableViewCell.h"
+#import "UIViewController+DataNull.h"
+
 @interface ImpersonalityTableViewController ()
 @property (nonatomic, strong) NSArray *dataSource;
 @end
@@ -34,8 +36,13 @@
 - (void)setTels:(NSArray *)tels {
     if (tels) {
         _tels = tels;
-        self.dataSource = tels;
-        [self.tableView reloadData];
+        if ([_tels count] == 0) {
+            [self setNoData];
+        }else {
+            [self setHasData];
+            self.dataSource = tels;
+            [self.tableView reloadData];
+        }
     }
 }
 
