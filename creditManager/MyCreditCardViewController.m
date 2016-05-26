@@ -122,8 +122,8 @@
     if (indexPath.row == 0) {
         [self addCreditCard];
     }else {
-//        [self editCredit:indexPath.row];
-        [self modifaiction];
+//      [self editCredit:indexPath.row];
+        [self modifaiction:indexPath.row];
     }
 }
 
@@ -149,8 +149,9 @@
     [self.navigationController pushViewController:bang animated:YES];
 }
 //跳转详细界面
-- (void)modifaiction{
+- (void)modifaiction:(NSInteger)index{
     ModificationTableViewController *modification = StoryBoardDefined(@"ModificationTableViewController");
+    modification.creditCard = [self.dataSource objectAtIndex:index - 1];
     [self.navigationController pushViewController:modification animated:YES];
 }
 - (void)editCredit:(NSInteger)index {

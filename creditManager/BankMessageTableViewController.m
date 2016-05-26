@@ -7,7 +7,7 @@
 //
 
 #import "BankMessageTableViewController.h"
-#import "BankTelTableViewController.h"
+#import "ImpersonalityTableViewController.h"
 
 @interface BankMessageTableViewController ()
 @property (nonatomic, strong) NSArray *dataSource;
@@ -35,7 +35,7 @@
 }
 
 - (void)feachData {
-    [[HTTPClientManager manager] POST:@"credit/get_bank_info?" dictionary:@{} success:^(id responseObject) {
+    [[HTTPClientManager manager] POST:@"/credit/get_bank_list_all?" dictionary:@{} success:^(id responseObject) {
         self.dataSource = [responseObject objectForKey:@"items"];
         [self.tableView reloadData];
     } failure:^(NSError *error) {
@@ -61,8 +61,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    BankTelTableViewController *tel = StoryBoardDefined(@"BankTelTableViewController");
-    tel.dic = self.dataSource[indexPath.row];
+    ImpersonalityTableViewController *tel = StoryBoardDefined(@"ImpersonalityTableViewController");
+    tel.tels = [self.dataSource[indexPath.row] objectForKey:@"bank_tel_list"];
     [self.navigationController pushViewController:tel animated:YES];
 }
 

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ImpersonalityTableViewController : UITableViewController
+@property (nonatomic, strong) NSArray  *tels;
 
 @end

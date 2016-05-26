@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CardDiscountViewController : UIViewController
-
+@property (nonatomic, assign) NSInteger bank_id;
 
 @end

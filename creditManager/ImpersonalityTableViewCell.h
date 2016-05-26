@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ImpersonalityTableViewCell : UITableViewCell
+@property (nonatomic,strong)NSDictionary*dic;
 
 @end

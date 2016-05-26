@@ -18,7 +18,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, assign) NSInteger currentPage;
 @property (nonatomic, strong) NSMutableArray *dataSource;
-@property (nonatomic, assign) NSInteger bank_id;
+
 @property (nonatomic, strong) UIButton *bank;
 @property (nonatomic, strong) JCCPickerView *pickerView;
 @property (nonatomic, strong) NSArray *allBanks;
@@ -45,7 +45,7 @@
 
 - (void)setUp {
     _currentPage = 1;
-    _bank_id  = 0;
+
     self.dataSource = [NSMutableArray arrayWithCapacity:0];
     self.tableView.showsVerticalScrollIndicator = NO;
     self.tableView.hidden = YES;

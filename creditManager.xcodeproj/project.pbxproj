@@ -12,6 +12,7 @@
 		1B3AEECF1CF4231500EDE136 /* ModificationFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AEECA1CF4231500EDE136 /* ModificationFirstTableViewCell.m */; };
 		1B3AEED01CF4231500EDE136 /* ModificationSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AEECC1CF4231500EDE136 /* ModificationSecondTableViewCell.m */; };
 		1B3AEED11CF4231500EDE136 /* ImpersonalityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3AEECE1CF4231500EDE136 /* ImpersonalityTableViewCell.m */; };
+		1BCF92311CF533FC00DD6525 /* PellTableViewSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCF92301CF533FC00DD6525 /* PellTableViewSelect.m */; };
 		8955F0E7332FB17B45D7BC27 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDA1454C8901F6E1280D4C4 /* libPods.a */; };
 		AE685D5C1C76B0CC00454566 /* ImagePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE685D5B1C76B0CC00454566 /* ImagePlayerView.m */; };
 		AE685D621C804EFF00454566 /* ZYTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE685D611C804EFF00454566 /* ZYTabViewController.m */; };
@@ -91,7 +92,6 @@
 		AEEB53AA1CA517DB00F41BD9 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEB53A91CA517DB00F41BD9 /* LineView.m */; };
 		AEEB53AD1CA52DFA00F41BD9 /* CardServerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEB53AC1CA52DFA00F41BD9 /* CardServerTableViewController.m */; };
 		AEEB53B01CA542EC00F41BD9 /* BankMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEB53AF1CA542EC00F41BD9 /* BankMessageTableViewController.m */; };
-		AEEB53B31CA5441200F41BD9 /* BankTelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEB53B21CA5441200F41BD9 /* BankTelTableViewController.m */; };
 		AEEBC3E11C83E5E0003D9164 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEBC3E01C83E5E0003D9164 /* User.m */; };
 		AEEBC3E51C83F74C003D9164 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEBC3E41C83F74C003D9164 /* HomeTableViewCell.m */; };
 		AEEBC3EC1C8415EE003D9164 /* HotBankView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEBC3EB1C8415EE003D9164 /* HotBankView.m */; };
@@ -160,6 +160,8 @@
 		1B3AEECC1CF4231500EDE136 /* ModificationSecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModificationSecondTableViewCell.m; sourceTree = "<group>"; };
 		1B3AEECD1CF4231500EDE136 /* ImpersonalityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpersonalityTableViewCell.h; sourceTree = "<group>"; };
 		1B3AEECE1CF4231500EDE136 /* ImpersonalityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpersonalityTableViewCell.m; sourceTree = "<group>"; };
+		1BCF922F1CF533FC00DD6525 /* PellTableViewSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PellTableViewSelect.h; sourceTree = "<group>"; };
+		1BCF92301CF533FC00DD6525 /* PellTableViewSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PellTableViewSelect.m; sourceTree = "<group>"; };
 		41ECA8900FC4377590881E60 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5CDA1454C8901F6E1280D4C4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6B45B2761D2A972F98037E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -305,8 +307,6 @@
 		AEEB53AC1CA52DFA00F41BD9 /* CardServerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardServerTableViewController.m; sourceTree = "<group>"; };
 		AEEB53AE1CA542EC00F41BD9 /* BankMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankMessageTableViewController.h; sourceTree = "<group>"; };
 		AEEB53AF1CA542EC00F41BD9 /* BankMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankMessageTableViewController.m; sourceTree = "<group>"; };
-		AEEB53B11CA5441200F41BD9 /* BankTelTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankTelTableViewController.h; sourceTree = "<group>"; };
-		AEEB53B21CA5441200F41BD9 /* BankTelTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankTelTableViewController.m; sourceTree = "<group>"; };
 		AEEBC3DF1C83E5E0003D9164 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		AEEBC3E01C83E5E0003D9164 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		AEEBC3E31C83F74C003D9164 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
@@ -564,6 +564,8 @@
 			children = (
 				AE7A017B1C9910160058045F /* ZJSwitch.h */,
 				AE7A017C1C9910160058045F /* ZJSwitch.m */,
+				1BCF922F1CF533FC00DD6525 /* PellTableViewSelect.h */,
+				1BCF92301CF533FC00DD6525 /* PellTableViewSelect.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -685,8 +687,6 @@
 				AEEB53A31CA3DB3E00F41BD9 /* CardInformationViewController.m */,
 				AEEB53AE1CA542EC00F41BD9 /* BankMessageTableViewController.h */,
 				AEEB53AF1CA542EC00F41BD9 /* BankMessageTableViewController.m */,
-				AEEB53B11CA5441200F41BD9 /* BankTelTableViewController.h */,
-				AEEB53B21CA5441200F41BD9 /* BankTelTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1221,7 +1221,6 @@
 				AEEB53A71CA3DB9300F41BD9 /* CardInformationTableViewCell.m in Sources */,
 				AEE56CCE1C926C9D00DF9DEC /* CardDiscountTableViewCell.m in Sources */,
 				AEF636C11C755CB700786889 /* UIViewExt.m in Sources */,
-				AEEB53B31CA5441200F41BD9 /* BankTelTableViewController.m in Sources */,
 				AEE56C9B1C8D175400DF9DEC /* StagingCalculatorViewController.m in Sources */,
 				AE685D7C1C83DF8600454566 /* ZYCacheManager.m in Sources */,
 				AE685D7B1C83DF8600454566 /* ZYNotificationManager.m in Sources */,
@@ -1248,6 +1247,7 @@
 				AE9C39401C9FF4A4006182B1 /* FeedBackViewController.m in Sources */,
 				AE7A01591C97A6D70058045F /* CreditCardFormSubmit.m in Sources */,
 				AEEB53A11CA3CA5500F41BD9 /* updateTelTableViewController.m in Sources */,
+				1BCF92311CF533FC00DD6525 /* PellTableViewSelect.m in Sources */,
 				AE7A01651C97F7AB0058045F /* SubmitCredit.m in Sources */,
 				AE685D651C80505600454566 /* HomeViewController.m in Sources */,
 				AEEBC42B1C86E55D003D9164 /* CreditProgressFlowLayout.m in Sources */,

@@ -9,13 +9,16 @@
 #import "ImpersonalityTableViewController.h"
 #import "ImpersonalityTableViewCell.h"
 @interface ImpersonalityTableViewController ()
-
+@property (nonatomic, strong) NSArray *dataSource;
 @end
 
 @implementation ImpersonalityTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"电话信息";
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+//    [self feachData];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -28,11 +31,48 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return CGFLOAT_MIN;
+- (void)setTels:(NSArray *)tels {
+    if (tels) {
+        _tels = tels;
+        self.dataSource = tels;
+        [self.tableView reloadData];
+    }
 }
+
+#pragma mark - Data
+- (void)feachData {
+    [[HTTPClientManager manager] POST:@"" dictionary:@{} success:^(id responseObject) {
+        self.dataSource = [responseObject objectForKey:@"items"];
+        [self.tableView reloadData];
+    } failure:^(NSError *error) {
+        
+    } view:self.view progress:YES];
+}
+
+
 #pragma mark - Table view data source
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.dataSource.count;
+}
+
+- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    ImpersonalityTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    cell.dic = [self.dataSource objectAtIndex:indexPath.row];
+    return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 55.f;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    TelephoneWithNumber(self.view, [[self.dataSource objectAtIndex:indexPath.row] objectForKey:@"tel"]);
+}
 
 /*
 // Override to support conditional editing of the table view.
